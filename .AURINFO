@@ -1,0 +1,19 @@
+pkgbase = ruby-tarantool
+	pkgdesc = Tarantool KV-storage client.
+	pkgver = 0.5.4
+	pkgrel = 1
+	url = https://github.com/mailru/tarantool-ruby
+	arch = any
+	license = BSD-2-Clause
+	depends = ruby
+	depends = ruby-iproto
+	depends = ruby-murmurhash3
+	depends = ruby-sumbur
+	depends = ruby-bin_utils
+	noextract = tarantool-0.5.4.gem
+	options = !emptydirs
+	source = https://rubygems.org/downloads/tarantool-0.5.4.gem
+	sha1sums = b59fd4db1b1a59b887d3079ee8ee3ef0192c54fd
+
+pkgname = ruby-tarantool
+
